@@ -31,13 +31,14 @@ export default function Slides() {
         setAtual(atual - 1);
     }
 
-    // React.useEffect(() => {
-    //     const interval = setInterval(() => {
-    //         setAtual(atual + 1);
-    //     }, 2000);
+    React.useEffect(() => {
+        const interval = setInterval(() => {
+            clearInterval();
+            setAtual(atual + 1);
+        }, 2000);
 
-    //     return () => clearInterval(interval);
-    // }, []);
+        return () => clearInterval(interval);
+    }, [atual]);
 
     return (
         <div>
