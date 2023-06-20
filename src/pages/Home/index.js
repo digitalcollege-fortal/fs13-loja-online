@@ -2,6 +2,7 @@ import Footer from "../../components/Footer";
 import Menu from "../../components/Menu";
 import Navbar from "../../components/Navbar";
 import FeaturedCollections from "../../components/FeaturedCollections";
+import Carousel from "../../components/Carousel";
 
 export default function Home() {
     return (
@@ -10,9 +11,7 @@ export default function Home() {
 
             <Menu/>
 
-            <div>
-                Carrossel
-            </div>
+            <Carousel/>
 
             <FeaturedCollections/>
 
