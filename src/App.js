@@ -5,6 +5,7 @@ import Products from "./pages/Products";
 import ProductDetails from "./pages/ProductDetails";
 import Orders from "./pages/Orders";
 import Slides from "./pages/Slides";
+import Admin from "./pages/Admin";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/produtos/:id" element={<ProductDetails/>}/>
         <Route path="/meus-pedidos" element={<Orders/>}/>
         <Route path="/slides" element={<Slides/>}/>
+        <Route path="/admin" element={<Admin/>}/>
       </Routes>
     </BrowserRouter>
   )

@@ -78,11 +78,11 @@ function SwipeableTextMobileStepper() {
           <div key={step.label}>
             {Math.abs(activeStep - index) <= 2 ? (
               <Grid container>
-                <Grid xs={6} item>
-                  <h1>Queima de estoque</h1>
+                <Grid item>
+                  Queima de estoque
                 </Grid>
-                <Grid xs={6} item>
-                  <img src={step.imgPath}/>
+                <Grid>
+                  <img src={step.image}/>
                 </Grid>
               </Grid>
             ) : null}
