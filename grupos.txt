@@ -12,14 +12,16 @@ Grupo 2 {
     - Nielly
     - Bruno
     - Junior
+    - Fernando
 }
 
 Grupo 3 {
     - Wellington
     - Marcelo
-    - Ualis on
+    - Ualison
     - Luanny
     - Flavio
+    - Victor Adler
 }
 
 Grupo 4 {
@@ -28,6 +30,7 @@ Grupo 4 {
     - Elton
     - Beatriz
     - Vitor
+    - Guilherme
 }
 
 Grupo 5 {
