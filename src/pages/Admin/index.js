@@ -51,7 +51,9 @@ export default function Admin() {
                                 <td>{cada.text}</td>
                                 <td> <img width="100px" src={cada.image}/> </td>
                                 <td>
-                                    <button>Editar</button>
+                                    <Link to={"/admin/campanhas/"+cada.id+"/editar"}>
+                                        <button>Editar</button>
+                                    </Link>
                                     <button onClick={() => remove(cada.id)}>Excluir</button>
                                 </td>
                             </tr>

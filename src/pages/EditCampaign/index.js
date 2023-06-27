@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function AddCampaign() {
+export default function EditCampaign() {
     const [titulo, setTitulo] = React.useState('');
     const [descricao, setDescricao] = React.useState('');
     const [imagem, setImagem] = React.useState('');
@@ -37,7 +37,7 @@ export default function AddCampaign() {
 
     return (
         <div>
-            <h1>Nova Campanha</h1>
+            <h1>Editar Campanha</h1>
             <hr/>
 
             <form onSubmit={enviar}>
