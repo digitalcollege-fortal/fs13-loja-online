@@ -6,6 +6,7 @@ import ProductDetails from "./pages/ProductDetails";
 import Orders from "./pages/Orders";
 import Slides from "./pages/Slides";
 import Admin from "./pages/Admin";
+import AddCampaign from "./pages/AddCampaign";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/meus-pedidos" element={<Orders/>}/>
         <Route path="/slides" element={<Slides/>}/>
         <Route path="/admin" element={<Admin/>}/>
+        <Route path="/admin/campanhas/nova" element={<AddCampaign/>}/>
       </Routes>
     </BrowserRouter>
   )

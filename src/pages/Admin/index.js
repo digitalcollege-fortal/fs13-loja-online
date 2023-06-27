@@ -1,5 +1,6 @@
 import React from 'react';
 import {Divider} from "@mui/material";
+import { Link } from 'react-router-dom';
 
 export default function Admin() {
     const [campaigns, setCampaigns] = React.useState([]);
@@ -28,6 +29,8 @@ export default function Admin() {
         <div>
             <h1>Admin</h1>
             <Divider/>
+
+            <Link to="/admin/campanhas/nova">Nova Campanha</Link>
 
             <table width="100%">
                 <thead>
